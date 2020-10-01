@@ -13,8 +13,8 @@ import * as firebase from 'firebase';
 import DateInput from './Datepicker';
 import {db} from './firebase';
 import moment from 'moment';
- 
 var buttonDisabled = true;
+
 
 const emailRegex = RegExp(
   /^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/
